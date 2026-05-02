@@ -1,0 +1,23 @@
+{
+  "name": "igor-server-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node ./build.mjs",
+    "start": "node ./dist/index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "express": "^5.0.0",
+    "garoa-orm": "latest",
+    "cors": "^2.8.5",
+    "pino": "^9.0.0",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.3",
+    "typescript": "latest",
+    "@types/node": "latest"
+  }
+}
+
